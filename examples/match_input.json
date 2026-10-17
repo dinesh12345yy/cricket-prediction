@@ -1,0 +1,26 @@
+{
+  "match_id": "DEMO-001",
+  "match_date_utc": "2026-10-17T14:00:00Z",
+  "teams": [
+    {
+      "team": "Team A",
+      "scores": {
+        "dasa": 72,
+        "shadbala": 65,
+        "ishta": 70,
+        "kashta": 30,
+        "tarabala": 80
+      }
+    },
+    {
+      "team": "Team B",
+      "scores": {
+        "dasa": 60,
+        "shadbala": 72,
+        "ishta": 55,
+        "kashta": 45,
+        "tarabala": 65
+      }
+    }
+  ]
+}

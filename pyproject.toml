@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cricket-astro-engine"
+version = "0.1.0"
+description = "Experimental modular cricket prediction research engine using configurable astrology-style scores"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+vedastro = ["vedastro"]
+
+[project.scripts]
+cricket-astro = "cricket_astro_engine.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

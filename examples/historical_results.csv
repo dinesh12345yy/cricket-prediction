@@ -1,0 +1,4 @@
+match_id,predicted_team,actual_winner
+DEMO-001,Team A,Team A
+DEMO-002,Team B,Team A
+DEMO-003,Team A,Team A

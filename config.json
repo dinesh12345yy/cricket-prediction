@@ -1,0 +1,13 @@
+{
+  "weights": {
+    "dasa": 0.3,
+    "shadbala": 0.25,
+    "ishta": 0.15,
+    "kashta": 0.15,
+    "tarabala": 0.15
+  },
+  "score_min": 0,
+  "score_max": 100,
+  "confidence_scale": 2.0,
+  "notes": "Initial experimental weights only. Do not interpret confidence as calibrated probability. Tune only on training data and evaluate on an untouched holdout set."
+}
